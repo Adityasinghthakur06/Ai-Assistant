@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Live Dynamic Background -->
+    <canvas id="dynamic-bg"></canvas>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>AI Assistant</h1>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Input Section -->
+            <div class="input-section neumorphic">
+                <input
+                    type="text"
+                    id="user-input"
+                    placeholder="Ask me anything..."
+                    class="input-field"
+                />
+                <button id="send-btn" class="btn neumorphic">Send</button>
+            </div>
+
+            <!-- AI Response Section -->
+            <div id="response" class="response-box neumorphic">
+                AI's response will appear here...
+            </div>
+
+            <!-- Controls Section -->
+            <div class="controls">
+                <!-- Speak Toggle -->
+                <button id="speak-toggle-btn" class="btn neumorphic">
+                    Enable Speak
+                </button>
+                <!-- Voice Input -->
+                <button id="voice-btn" class="btn neumorphic">🎙 Voice Input</button>
+                <!-- Start Voice Conversation -->
+                <button id="voice-conversation-btn" class="btn neumorphic">
+                    Start Conversation
+                </button>
+                <!-- Stop Voice Conversation -->
+                <button id="stop-conversation-btn" class="btn neumorphic">
+                    Stop Conversation
+                </button>
+                <!-- Voice Selection Dropdown -->
+                <label for="voice-selection" style="color: #fff; margin-left: 10px;">
+                    Select Voice:
+                </label>
+                <select id="voice-selection" class="dropdown neumorphic"></select>
+            </div>
+
+            <!-- Additional Features Section -->
+            <div class="extra-features">
+                <button id="get-weather-btn" class="btn neumorphic">
+                    Get Weather
+                </button>
+                <button id="get-joke-btn" class="btn neumorphic">
+                    Tell Me a Joke
+                </button>
+                <button id="start-trivia-btn" class="btn neumorphic">
+                    Start Trivia Game
+                </button>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Powered by Addy | Designed with ❤️</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
