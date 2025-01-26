@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.20",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "canvas": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "onnxruntime-web": "^1.20.1"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
